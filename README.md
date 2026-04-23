@@ -22,7 +22,7 @@ Instead of depending only on pre-trained knowledge, the system retrieves relevan
 
 - Python  
 - LangChain  
-- OpenAI API (LLM)  
+- Groq API (LLM)  
 - ChromaDB (Vector Database)  
 - Streamlit (Frontend UI)  
 
@@ -62,7 +62,7 @@ RAG_Project/
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/rag-customer-support-chatbot.git](https://github.com/Arjunbr18/FinalProject-Innomatics-rag-customer-support-chatbot.git)
+git clone https://github.com/Arjunbr18/FinalProject-Innomatics-rag-customer-support-chatbot.git
 cd rag-customer-support-chatbot
 ```
 
@@ -84,7 +84,7 @@ pip install -r requirements.txt
 Create a `.env` file in the root folder and add:
 
 ```
-OPENAI_API_KEY=your_api_key_here
+GROQ_API_KEY=your_api_key_here
 ```
 
 ---
@@ -99,7 +99,7 @@ streamlit run app.py
 
 ## Demo
 
-(https://drive.google.com/file/d/16rdbY-8GetcgTs9I27txT4FxDgX9sfup/view?usp=sharing)
+https://drive.google.com/file/d/16rdbY-8GetcgTs9I27txT4FxDgX9sfup/view?usp=sharing
 
 ---
 
