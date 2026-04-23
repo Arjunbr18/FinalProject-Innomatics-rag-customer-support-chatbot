@@ -122,7 +122,6 @@ if st.session_state.db_ready:
 
         human_input = st.text_input("Human Response", key="hitl_box")
 
-        # 🔥 ENTER KEY SUPPORT
         if human_input and human_input != st.session_state.last_submitted:
 
             st.session_state.last_submitted = human_input
