@@ -40,7 +40,7 @@ RAG_Project/
 │   ├── ingest.py           # Document loading & chunking
 │   ├── retriever.py        # Retrieval logic
 │   ├── graph_flow.py       # RAG pipeline workflow
-│
+│   ├── hitl.py             # Human review control
 
 ```
 
