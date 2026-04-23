@@ -35,7 +35,6 @@ def process_query(state: GraphState):
 
     query = state["query"]
 
-    # 🔥 Improved Retrieval (MMR)
     docs = db.max_marginal_relevance_search(
         query,
         k=5,
@@ -47,7 +46,6 @@ def process_query(state: GraphState):
 
     context = "\n\n".join([doc.page_content for doc in docs])
 
-    # 🔥 Improved Prompt
     prompt = f"""
 You are a customer support assistant.
 
