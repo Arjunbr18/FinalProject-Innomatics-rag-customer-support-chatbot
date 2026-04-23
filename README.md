@@ -62,7 +62,7 @@ RAG_Project/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/rag-customer-support-chatbot.git
+git clone [https://github.com/your-username/rag-customer-support-chatbot.git](https://github.com/Arjunbr18/FinalProject-Innomatics-rag-customer-support-chatbot.git)
 cd rag-customer-support-chatbot
 ```
 
